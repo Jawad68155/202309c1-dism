@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization>
+<Aptech center="sfc">
+<department name="StudentAffairs">
+    <employe id="101">
+        <employeName></employeName>
+        <employeEmail></employeEmail>
+        <employePhone></employePhone>
+        <employeAddress></employeAddress>
+    </employe>
+</department> 
+<department name="faculty">
+    <employe id="102">
+        <employeName></employeName>
+        <employeEmail></employeEmail>
+        <employePhone></employePhone>
+        <employeAddress></employeAddress>
+    </employe>
+</department> 
+<department name="IT">
+    <employe id="103">
+        <employeName></employeName>
+        <employeEmail></employeEmail>
+        <employePhone></employePhone>
+        <employeAddress></employeAddress>
+    </employe>
+</department> 
+<department name="examination">
+    <employe id="104">
+        <employeName></employeName>
+        <employeEmail></employeEmail>
+        <employePhone></employePhone>
+        <employeAddress></employeAddress>
+    </employe>
+</department> 
+<department name="admission">
+    <employe id="105">
+        <employeName></employeName>
+        <employeEmail></employeEmail>
+        <employePhone></employePhone>
+        <employeAddress></employeAddress>
+    </employe>
+</department> 
+</Aptech>
+</organization>
