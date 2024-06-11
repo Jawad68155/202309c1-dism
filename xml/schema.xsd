@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="company">
+       <xs:complexType>
+        <xs:sequence>
+            <xs:element name="employee">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="id" type="xs:positiveInteger"></xs:element>
+                        <xs:element name="name" type="xs:string"></xs:element>
+                        <xs:element name="position" type="xs:string"></xs:element>
+                        <xs:element name="department" type="xs:string"></xs:element>
+                        <xs:element name="salary" type="xs:decimal"></xs:element>
+                        <xs:simpleType>
+                            <xs:restriction>
+                                <xs:pattern>
+                                    
+                                </xs:pattern>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+       </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<company>
+    <employee>
+        <id>2</id>
+        <name>Jawad</name>
+        <position>manager</position>
+        <department>HR</department>
+        <salary>75000</salary>
+    </employee>
+</company>
