@@ -1,0 +1,62 @@
+[
+    {
+        "name": "infinix",
+        "image": "placeholder_image_url_1",
+        "price": 43567,
+        "description": "description_1"
+    },
+    {
+        "name": "infinix",
+        "image": "placeholder_image_url_2",
+        "price": 43999,
+        "description": "description_2"
+    },
+    {
+        "name": "infinix",
+        "image": "placeholder_image_url_3",
+        "price": 44250,
+        "description": "description_3"
+    },
+    {
+        "name": "infinix",
+        "image": "placeholder_image_url_4",
+        "price": 45000,
+        "description": "description_4"
+    },
+    {
+        "name": "infinix",
+        "image": "placeholder_image_url_5",
+        "price": 45500,
+        "description": "description_5"
+    },
+    {
+        "name": "infinix",
+        "image": "placeholder_image_url_6",
+        "price": 46000,
+        "description": "description_6"
+    },
+    {
+        "name": "infinix",
+        "image": "",
+        "price": 47000,
+        "description": "description"
+    },
+    {
+        "name": "infinix",
+        "image": "placeholder_image_url_8",
+        "price": 48000,
+        "description": "description"
+    },
+    {
+        "name": "infinix",
+        "image": "placeholder_image_url_9",
+        "price": 49000,
+        "description": "description"
+    },
+    {
+        "name": "infinix",
+        "image": "placeholder_image_url_10",
+        "price": 50000,
+        "description": "description"
+    }
+]
