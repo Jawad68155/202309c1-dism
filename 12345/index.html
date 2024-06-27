@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <h1>welcome</h1>
+    </div>
+    <div>
+        <h1>
+            world
+        </h1>
+    </div>
+    <input type="button" id="btn" value="made">
+</body>
+<script>
+    document.getElementById('btn').addEventListener('click',abc)
+    var count = 0
+    function abc(){
+        if (count== 0){
+            document.getElementsByTagName('body')[0].style.backgroundColor='black';
+            document.getElementsByTagName('div')[0].style.backgroundColor='black';
+            document.getElementsByTagName('h1')[0].style.color='white';
+
+            document.getElementsByTagName('div')[1].style.backgroundColor='black';
+            document.getElementsByTagName('h1')[1].style.color='white';
+            count = 1;
+        }
+        else if (count == 1){
+            document.getElementsByTagName('body')[0].style.backgroundColor='red';
+            document.getElementsByTagName('div')[0].style.backgroundColor='red';
+            document.getElementsByTagName('h1')[0].style.color='yellow';
+
+            document.getElementsByTagName('div')[1].style.backgroundColor='red';
+            document.getElementsByTagName('h1')[1].style.color='yellow';
+            count = 1;
+        }
+        else{
+    document.getElementsByTagName('body')[0].style.backgroundColor='white';
+    document.getElementsByTagName('div')[0].style.backgroundColor='white';
+    document.getElementsByTagName('h1')[0].style.color='black';
+    document.getElementsByTagName('div')[1].style.backgroundColor='white';
+    document.getElementsByTagName('h1')[1].style.color='black';
+    count = 0;
+}
+    }
+    
+
+</script>
+</html>
